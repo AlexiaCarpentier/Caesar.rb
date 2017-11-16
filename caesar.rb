@@ -13,4 +13,6 @@ def chiffre_de_cesar(string, shift = 5)
   string.chars.map { |c| encrypter.fetch(c, c) }
 end
 
+text = gets.chomp
+
 p chiffre_de_cesar("Alexia et Sebatien!").join
